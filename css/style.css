@@ -158,20 +158,35 @@ a {
       }
       hr {}
 
-.aside {
-  width: 300px;
-  height: 2000px;
-  float: right;
-  clear: both;
-  background-color: #f0efef;
-  padding-right: 65px;
-  padding-right: 70px;
-  padding-left: 10px;
-  padding-top: 60px;
-  text-align: left;
-  overflow: hidden;
-  display: inline;
-  margin-left: -15; 
+/******************************************
+/* SIDEBAR
+/*******************************************/
+
+#sidebar {
+  width: 240px;
+  float: left;
+}
+#sidebar h3 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #043049;
+}
+#sidebar ul {
+  margin-bottom: 40px;
+}
+#sidebar ul li a {
+  color: #043049;
+  font-size: 24px;
+}
+#sidebar p {
+  font-size: 22px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+#sidebar p a {
+  color: #043049;
+  font-weight: 600;
 }
   
       
@@ -199,28 +214,6 @@ a {
         padding-top: 35px;
         padding-bottom: 25px;
       }
-
-      .aside-headers {
-        font-size: 32px;
-        font-weight: 300;
-        line-height: 30px;
-        margin-bottom: 50px;
-      }
-
-      .categories-list {
-        font-size: 24px;
-        font-weight: 300;
-        line-height: 30px;
-        margin-bottom: 50px;
-        padding-top: 50px;
-       }
-
-      .aside-description {
-        font-size: 22px;
-        font-weight: 300;
-        line-height: 30px;
-        margin-bottom: 50px;
-       }
 
       .ad_unit {
         background-color: white;
