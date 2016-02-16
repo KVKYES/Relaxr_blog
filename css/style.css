@@ -111,7 +111,12 @@ a {
     /* MAIN */
 
 
-  .blog-entries {
+.wrapper {
+  width: 960px;
+  margin: 0 auto; /* to center a block element */
+}
+
+.blog-entries {
   width: 810px;
   height: 1700px;
   text-align: left;
@@ -133,13 +138,22 @@ a {
       margin-bottom: 30px;
       padding-bottom: 15px;
       }
-      .content {
+      .content-post1 {
       font-size: 22px;
       font-weight: 300;
       padding-right: 75px;
       padding-top: 15px;
       line-height: 30px;
       }
+
+      #content-post1-readmore1 {
+      font-size: 22px;
+      font-weight: 300;
+      padding-right: 75px;
+      padding-top: 15px;
+      line-height: 30px;
+      }
+
       h5 {
       font-size: 22px;
       font-weight: 600;
@@ -149,13 +163,76 @@ a {
       font-size: 48px;
       font-weight: 600;
       }
-      #readmore {
+      #readmore1 {
+      font-size: 22px;
+      font-weight: 300;
+      text-align: right;
+      padding-top: 35px;
+      padding-bottom: 25px;
+      }
+
+       #readmore2 {
+      font-size: 22px;
+      font-weight: 300;
+      text-align: right;
+      padding-top: 35px;
+      padding-bottom: 25px;
+      }
+
+      .hide {
+      display: none;
+      }
+
+      #readless1 {
+      display: none;
       font-size: 22px;
       font-weight: 600;
       text-align: right;
       padding-top: 35px;
       padding-bottom: 25px;
       }
+
+      #readless2 {
+      display: none;
+      font-size: 22px;
+      font-weight: 600;
+      text-align: right;
+      padding-top: 35px;
+      padding-bottom: 25px;
+      }
+
+      .content-post1-readmore1 {
+      display: none;
+      }
+      
+      .content-post2-readmore2 {
+        display: none;
+      }
+
+      #button {
+      color: white;
+      background-color: #033048;
+      font-weight: bold;
+      font-size: 28px;
+      border-radius: 4px;
+      height: 50px;
+      width: 300px;
+      padding-top: 10px;
+      margin: -10px;
+      }
+      #no_sign_ups {
+      display: none;
+      color: white;
+      background-color: #033048;
+      font-weight: bold;
+      font-size: 28px;
+      border-radius: 4px;
+      height: 50px;
+      width: 300px;
+      padding-top: 10px;
+      margin: -10px;
+      }
+
       hr {}
 
 /******************************************
@@ -193,7 +270,7 @@ a {
       .h3 {
         font-size: 40px;
         font-weight: 600;
-        text-align: left;
+        text-align: center;
         padding-bottom: 20px;
       }
 
