@@ -323,6 +323,19 @@ a {
   margin: -10px;
   }
 
+  #no_sign_ups {
+  display: none;
+  color: white;
+  background-color: #033048;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 4px;
+  height: 50px;
+  width: 300px;
+  padding-top: 10px;
+  margin: -10px;
+}
+
 footer {
   background-color: #121212;
 }
