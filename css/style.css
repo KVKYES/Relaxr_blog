@@ -132,12 +132,20 @@ a {
       text-align: left;
       padding-bottom: 20px;
       }
+
+      h5 {
+      font-size: 22px;
+      font-weight: 600;
+      }
+
+
       #rowing {
       width: 550px;
       margin-top: 30px;
       margin-bottom: 30px;
       padding-bottom: 15px;
       }
+
       .content-post1 {
       font-size: 22px;
       font-weight: 300;
@@ -146,18 +154,15 @@ a {
       line-height: 30px;
       }
 
-      #content-post1-readmore1 {
+      .content-post1-readmore1 {
       font-size: 22px;
       font-weight: 300;
       padding-right: 75px;
       padding-top: 15px;
       line-height: 30px;
+      display: none;
       }
 
-      h5 {
-      font-size: 22px;
-      font-weight: 600;
-      }
       .first-character { 
       float: left;
       font-size: 48px;
@@ -171,22 +176,35 @@ a {
       padding-bottom: 25px;
       }
 
-       #readmore2 {
+      #readless1 {
+      display: none;
       font-size: 22px;
-      font-weight: 300;
+      font-weight: 600;
       text-align: right;
       padding-top: 35px;
       padding-bottom: 25px;
       }
 
-      .hide {
+      .content-post2 {
+      font-size: 22px;
+      font-weight: 300;
+      padding-right: 75px;
+      padding-top: 15px;
+      line-height: 30px;
+      }
+
+      .content-post2-readmore2 {
+      font-size: 22px;
+      font-weight: 300;
+      padding-right: 75px;
+      padding-top: 15px;
+      line-height: 30px;
       display: none;
       }
 
-      #readless1 {
-      display: none;
+      #readmore2 {
       font-size: 22px;
-      font-weight: 600;
+      font-weight: 300;
       text-align: right;
       padding-top: 35px;
       padding-bottom: 25px;
@@ -201,36 +219,8 @@ a {
       padding-bottom: 25px;
       }
 
-      .content-post1-readmore1 {
+      .hide {
       display: none;
-      }
-      
-      .content-post2-readmore2 {
-        display: none;
-      }
-
-      #button {
-      color: white;
-      background-color: #033048;
-      font-weight: bold;
-      font-size: 28px;
-      border-radius: 4px;
-      height: 50px;
-      width: 300px;
-      padding-top: 10px;
-      margin: -10px;
-      }
-      #no_sign_ups {
-      display: none;
-      color: white;
-      background-color: #033048;
-      font-weight: bold;
-      font-size: 28px;
-      border-radius: 4px;
-      height: 50px;
-      width: 300px;
-      padding-top: 10px;
-      margin: -10px;
       }
 
       hr {}
@@ -292,8 +282,14 @@ a {
         padding-bottom: 25px;
       }
 
+      .categories {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 50px;
+       }
+
       .ad_unit {
-        background-color: white;
         width: 225px;
         height: 600px;
         color: #033048;
